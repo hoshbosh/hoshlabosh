@@ -1,0 +1,7 @@
+@import "App.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{
+    background-color: #1B1B1E;
+}

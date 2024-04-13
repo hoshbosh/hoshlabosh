@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .title{
+    @apply text-3xl font-bold  text-plat 
+  }
+  .primary-container{
+    @apply flex flex-col
+  }
+  .section{
+    @apply w-full px-12 pt-20 pb-20 
+  }
+  .text{
+    @apply text-lg text-plat
+  }
+}
+/* @keyframes waves{
+  from{
+  --mask:
+    radial-gradient(65.41px at 50% 92.4px,#000 99%,#0000 101%) calc(50% - 88px) 0/176px 51% repeat-x,
+    radial-gradient(65.41px at 50% -48.4px,#0000 99%,#000 101%) 50% 44px/176px calc(51% - 44px) repeat-x,
+    radial-gradient(65.41px at 50% calc(100% - 92.4px),#000 99%,#0000 101%) calc(50% - 88px) 100%/176px 51% repeat-x,
+    radial-gradient(65.41px at 50% calc(100% + 48.4px),#0000 99%,#000 101%) 50% calc(100% - 44px)/176px calc(51% - 44px) repeat-x;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+  }
+  to{
+  --mask:
+    radial-gradient(65.41px at 50% 92.4px,#000 99%,#0000 101%) calc(50% - 88px) 0/176px 51% repeat-x,
+    radial-gradient(65.41px at 50% -48.4px,#0000 99%,#000 101%) 50% 44px/176px calc(51% - 44px) repeat-x,
+    radial-gradient(65.41px at 50% calc(100% - 92.4px),#000 99%,#0000 101%) 50% 100%/176px 51% repeat-x,
+    radial-gradient(65.41px at 50% calc(100% + 48.4px),#0000 99%,#000 101%) calc(50% - 88px) calc(100% - 44px)/176px calc(51% - 44px) repeat-x;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+  }
+}
+.box {
+  animation-name: waves;
+  animation-duration: 4s;
+} */
+/* .box {
+  --mask:
+    radial-gradient(65.41px at 50% 92.4px,#000 99%,#0000 101%) calc(50% - 88px) 0/176px 51% repeat-x,
+    radial-gradient(65.41px at 50% -48.4px,#0000 99%,#000 101%) 50% 44px/176px calc(51% - 44px) repeat-x,
+    radial-gradient(65.41px at 50% calc(100% - 92.4px),#000 99%,#0000 101%) calc(50% - 88px) 100%/176px 51% repeat-x,
+    radial-gradient(65.41px at 50% calc(100% + 48.4px),#0000 99%,#000 101%) 50% calc(100% - 44px)/176px calc(51% - 44px) repeat-x;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+} */
+.box {
+  --mask:
+    radial-gradient(65.41px at 50% 92.4px,#000 99%,#0000 101%) calc(50% - 88px) 0/176px 51% repeat-x,
+    radial-gradient(65.41px at 50% -48.4px,#0000 99%,#000 101%) 50% 44px/176px calc(51% - 44px) repeat-x,
+    radial-gradient(65.41px at 50% calc(100% - 92.4px),#000 99%,#0000 101%) 50% 100%/176px 51% repeat-x,
+    radial-gradient(65.41px at 50% calc(100% + 48.4px),#0000 99%,#000 101%) calc(50% - 88px) calc(100% - 44px)/176px calc(51% - 44px) repeat-x;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+}
