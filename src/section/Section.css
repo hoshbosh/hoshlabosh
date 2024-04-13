@@ -1,0 +1,15 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components{
+    .section{
+      @apply w-full px-12 pt-20 pb-20 
+    }
+    .text{
+      @apply text-lg text-plat flex sm:flex-col md:flex-row
+    }
+    .title{
+        @apply text-3xl font-bold 
+    }
+}

@@ -9,12 +9,7 @@
   .primary-container{
     @apply flex flex-col
   }
-  .section{
-    @apply w-full px-12 pt-20 pb-20 
-  }
-  .text{
-    @apply text-lg text-plat
-  }
+
 }
 /* @keyframes waves{
   from{

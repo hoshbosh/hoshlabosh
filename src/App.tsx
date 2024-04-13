@@ -1,23 +1,20 @@
 import './index.css'
-
+import Section from './section/Section'
 function App() {
 
   return (
       <div className='primary-container'>
-        <div className='section'>
-          <div className='title text-center'>
-            Boo
-          </div>
-        </div>
-        <div className='section bg-charcoal box bg-gradient-to-t to-moonstone from-powderBlue '>
-          <div className='title text-charcoal'>
-            Yuh ay
-          </div>
-          <div className='text text-charcoal'>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae quidem sapiente dolorem aspernatur? Quia in corporis perspiciatis blanditiis nam sit soluta dignissimos, beatae necessitatibus, voluptatum odio totam quisquam libero quam?
-          </div>
-        </div>
-      </div>
+
+
+        <Section isHighlight={false} title="Hi, my name is Joshua Labasbas">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima adipisci amet nihil quaerat. Totam itaque cumque architecto ad, nisi impedit magni incidunt modi repellat eius porro tempore facere nobis sed!
+        </Section>
+        <Section isHighlight={true} title="yuh ay">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima adipisci amet nihil quaerat. Totam itaque cumque architecto ad, nisi impedit magni incidunt modi repellat eius porro tempore facere nobis sed!
+          <img className="p-10" src='./pawn.png'/>
+        </Section>
+
+    </div>
   )
 }
 
