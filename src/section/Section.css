@@ -8,9 +8,30 @@
     }
     .text{
       @apply text-xl text-plat sm:flex md:grid sm:flex-col md:grid-cols-2 sm:place-items-center items-center md:justify-around space-y-10
-      flex-wrap
+      flex-wrap pt-10
     }
     .title{
         @apply text-3xl font-bold 
     }
+}
+.fade-in{
+  opacity: 0;
+  transition: opacity 250ms ease-in;
+}
+.fade-in.appear{
+  opacity: 1;
+}
+.from-left{
+  transform: translateX(-65%);
+}
+.from-right{
+  transform: translateX(65%);
+}
+.from-left,
+.from-right{
+  transition: transform 400ms ease-in;
+}
+.from-left.appear,
+.from-right.appear{
+  transform: translateX(0);
 }

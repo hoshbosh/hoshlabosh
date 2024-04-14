@@ -6,3 +6,6 @@
 :root{
     background-color: #1B1B1E;
 }
+body{
+    overflow-x: hidden;
+}
