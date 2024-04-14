@@ -3,13 +3,9 @@
 @tailwind utilities;
 
 @layer components{
-  .title{
-    @apply text-3xl font-bold  text-plat 
-  }
   .primary-container{
     @apply flex flex-col
   }
-
 }
 /* @keyframes waves{
   from{
