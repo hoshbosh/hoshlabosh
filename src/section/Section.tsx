@@ -2,7 +2,7 @@ import { PropsWithChildren } from "react"
 import './Section.css'
 import { useEffect } from "react"
 import { fadeIns } from "./observer"
-import Carousel from '../Carousel/Carousel'
+// import Carousel from '../Carousel/Carousel'
 
 
 type props={
