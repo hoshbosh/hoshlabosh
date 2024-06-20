@@ -3,4 +3,4 @@ Currently still in progress
 To do:
 - ~~Fade in~~
 - ~~Slide in~~
-- Photo carousel
+- Photo carousel FROM SCRATCH

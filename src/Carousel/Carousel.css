@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .button{
+        @apply rounded-full hover:bg-powderBlue hover:text-eerieBlack
+        p-3 justify-center flex transition ease-in-out bg-charcoal text-powderBlue
+    }
+}
