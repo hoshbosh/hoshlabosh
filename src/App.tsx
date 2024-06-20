@@ -3,7 +3,7 @@ import Section from './section/Section'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import Carousel from './Carousel/Carousel';
+// import Carousel from './Carousel/Carousel';
 function App() {
                   {/* <Slider autoplay={true}>
             <img src={"./pawn.png"} className='rounded-xl fade-in'/>
