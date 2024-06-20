@@ -18,7 +18,7 @@ function App() {
              My interests in computer science mostly pretain to full-stack web development and computer graphics, but I am also passionate about robotics and machine learning.
           </div>
 
-          <img src='./me.jpeg'/>
+          <img src='./me.jpeg' className=" w-3/4 slide-in fade-in from-right"/>
 
         </Section>
 
@@ -28,15 +28,7 @@ function App() {
             C++, robotics, and working in a team. It was here that I was most inspired to persue computer science, I worked with two other students on our robot, named "Bl1nda." 
             We competed in one competition with another robot from our high school. 
           </div>
-          <Slider dots={true} arrows={true}>
-            <div className="bg-plat">
-            <h1>balls</h1>
-            </div>
-            <div className="bg-plat">
-            <h1>balls</h1>
-            </div>
-          </Slider>
-          {/* <img className=" w-3/4 slide-in fade-in from-right" src='./pawn.png'/> */}
+          <img className=" w-3/4 slide-in fade-in from-right" src='./pawn.png'/>
         </Section>
         <Section isHighlight={false} title="NHS Attendance" images={[]}>
           <div className="p-10 h-full text-center slide-in fade-in from-left">
