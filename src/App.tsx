@@ -59,7 +59,7 @@ function App() {
             For my intro to machine learning class, my team of two other programmers and I created a collection of machine learning models to attempt to predict stock market trends
             while also taking into account the sentiment of popular financial news headlines. The company that was examined was the RTX corporation, we trained a linear regression, linear discriminant analysis,
             SGD classifier, K nearest neighbors classifiers, random forest classifier, and Gaussian process classifier. The models were extremely inaccurate, while in part this was due to overfitting, it is also 
-            notoriously difficult to have a moderately accurate stock predictor. 
+            notoriously difficult to have a moderately accurate stock predictor. Github repository linked <a href="https://github.com/KWagnerCS/StockPredictor" target="_blank">here</a> 
           </div>
         </Section>
         <Section isHighlight={false} title="Wikipedia Game Solver" images={[]} subtitle="Spring 2023">
@@ -73,30 +73,44 @@ function App() {
 
         </Section>
         <Section isHighlight={true} title="ZenState" images={[]} subtitle="Spring 2024">
-          <div className="p-10 h-full text-center">
+          <div className=" h-full text-center">
             <div>
               For my Intro to Software Engineering course, my team's semester long project was a productivity web application. Zenstate allows users to add friends 
               and then compete for the longest time spent focusing on their work. This app included user authentication, and full MongoDB CRUD functionality. The app used 
-              Next.js and TailwindCSS. 
+              Next.js and TailwindCSS. For this project, my team followed a SCRUM style workflow, having regular SCRUMs. I predominantly worked on the backend, interfacing with the 
+              Next.js actions functionality, alongside MongoDB, for this project I also held the product manager role.
             </div>
 
-            <a href='https://intro-swe-project-hoshboshs-projects.vercel.app/' target="_blank" className='flex place-content-center pt-10'>
+            <a href='https://intro-swe-project-hoshboshs-projects.vercel.app/' target="_blank" className='flex place-content-center pt-10 pb-5'>
               <img className="scale-25 w-3/4 slide-in fade-in from-right rounded-lg" src='./zen.png'/>
             </a>
           </div>
         </Section>
 
         <Section isHighlight={false} title="Raytracer" images={[]} subtitle="Spring 2024">
-          <div className="p-10 h-full text-center slide-in fade-in from-left ">
-            <a className='flex place-content-center' href="https://youtube.com/shorts/wJNnKOjAEIQ?feature=share" target="_blank">
+          <div className=" h-full text-center slide-in fade-in from-left ">
+            <div>
+              For my data structures in computer graphics class, we were tasked to create a raytracer. Using OpenGL and C++, 
+              we implemented diffuse shading, Phong shading, and ambient shading; additionally, we added in reflections by having the 
+              rays bounce off. I implemented ray-circle intersection algorithms, we rendered the image by having a ray project from each pixel 
+              on the screen. A video demonstration of the raytracer with a moving camera can be found by clicking on the image to a Youtube video.
+            </div>
+            <a className='pt-10 flex place-content-center' href="https://youtube.com/shorts/wJNnKOjAEIQ?feature=share" target="_blank">
               <img className='scale-25 w-3/4 slide-in fade-in from-right rounded-lg' src="./everything.png"/>
             </a>
           </div>
         </Section>
 
         <Section isHighlight={true} title="Graphics Pipeline Model Viewer" images={[]} subtitle="Spring 2024">
-          <div className="p-10 h-full text-center slide-in fade-in from-left ">
-            <div className="flex place-content-center">
+          <div className="p-5 h-full text-center slide-in fade-in from-left ">
+            <div>
+              For the same Data Structures in Computer Graphics course, we were later tasked to create a model renderer using the 
+              modern OpenGL graphics pipeline. I was given .obj files and was required to create a program that is capable of reading in 
+              a particular .obj file, then break it into triangles to be rendered by the graphics pipeline. We also wrote shaders to compare 
+              doing matrix calculations in the shader vs on the CPU in the C++ code. Additionally, we implemented being able to control the scale, 
+              translation, and rotation on all axises of the model. 
+            </div>
+            <div className="pt-10 flex place-content-center">
               <img src="./pawn.png" className='scale-25 w-3/4 slide-in fade-in from-right rounded-lg'/>
             </div>
           </div>
