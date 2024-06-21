@@ -1,5 +1,6 @@
 import './index.css'
 import Section from './section/Section'
+import YoutubeEmbed from "./YoutubeEmbed";
 function App() {
   return (
       <div className='primary-container'>
@@ -10,20 +11,22 @@ function App() {
              My interests in computer science mostly pretain to full-stack web development and computer graphics, but I am also passionate about robotics and machine learning.
           </div>
           <div className='place-content-center flex'>
-            <img src='./me.jpeg' className="rounded-lg w-3/4 slide-in fade-in from-right scale-25"/>
+            <img src='./me.jpeg' className="pt-5 rounded-lg w-3/4 slide-in fade-in from-right scale-25"/>
           </div>
 
         </Section>
 
         <Section isHighlight={true} title="Bl1nda" images={["shanks_bl1nda.jpeg", "bl1nda.jpeg"]} subtitle="Fall 2022">
-          <div className="p-10 h-full max-w-prose slide-in fade-in from-left">
+          <div className="h-full max-w-prose slide-in fade-in from-left  align-middle content-center">
             The first project I worked on was a VEX robot in my senior year of high school. Prior I had taken a few Java classes but this was the first project that exposed me to 
             C++, robotics, and working in a team. It was here that I was most inspired to persue computer science, I worked with two other students on our robot, named "Bl1nda." 
             We competed in one competition with another robot from our high school. 
+
           </div>
           <div className='flex place-content-center'>
           <img className="scale-50 w-3/4 slide-in fade-in from-right rounded-lg" src='./bl1nda.jpeg'/>
           </div>
+
         </Section>
         <Section isHighlight={false} title="NHS Attendance" images={[]} subtitle="Spring 2022">
           <div className="p-10 h-full text-center slide-in fade-in from-left">
@@ -59,10 +62,32 @@ function App() {
             notoriously difficult to have a moderately accurate stock predictor. 
           </div>
         </Section>
-        <Section isHighlight={true} title="Wikipedia Game Solver" images={[]} subtitle="Fall 2023">
-          <div className="p-10 h-full text-center slide-in fade-in from-left">
+        <Section isHighlight={false} title="Wikipedia Game Solver" images={[]} subtitle="Spring 2023">
+          <div className="p-10 h-full text-center">
+          {/* <div className="p-10 h-full text-center slide-in fade-in from-left"> */}
             The Wikipedia game involves having a source Wikipedia article to a target Wikipedia article by only using the links between articles. This project was done in a team with two other programmers, for our 
-            data structures and algorithms class. We approached the problem like graph problem, with the potential graph having hundreds of thousands of nodes and millions of possible connections. We gathered the data using GoLang 
+            data structures and algorithms class. We approached the problem like graph problem, with the potential graph having hundreds of thousands of nodes and millions of possible connections. We gathered the data using GoLang to 
+            get all the article pages and their connections. We compared solutions using a breadth-first search and a iterative-deepening depth first algorithm, these were implemented using C++ and the UI was implemented using ImGui.
+            <YoutubeEmbed embedId={"FKxYVZUkdeg"}/>
+          </div>
+
+        </Section>
+        <Section isHighlight={true} title="ZenState" images={[]} subtitle="Spring 2024">
+          <div className="p-10 h-full text-center slide-in fade-in from-left">
+            <a href='https://intro-swe-project-hoshboshs-projects.vercel.app/' target="_blank">here</a>
+          </div>
+        </Section>
+
+        <Section isHighlight={false} title="Raytracer" images={[]} subtitle="Spring 2024">
+          <div className="p-10 h-full text-center slide-in fade-in from-left">
+            <a href="https://youtube.com/shorts/wJNnKOjAEIQ?feature=share" target="_blank">here</a>
+            <img src="./everything.png"/>
+          </div>
+        </Section>
+
+        <Section isHighlight={true} title="Graphics Pipeline Model Viewer" images={[]} subtitle="Spring 2024">
+          <div className="p-10 h-full text-center slide-in fade-in from-left">
+            <img src="./pawn.png"/>
           </div>
         </Section>
     </div>
