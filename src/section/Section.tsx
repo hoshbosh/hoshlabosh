@@ -8,7 +8,8 @@ import { fadeIns } from "./observer"
 type props={
     isHighlight: boolean,
     title: String,
-    images: string[]
+    images: string[],
+    subtitle: String
 }
 const Section=(props:PropsWithChildren<props>)=>{
     const ifImg=props.images.length==0
@@ -18,9 +19,14 @@ const Section=(props:PropsWithChildren<props>)=>{
     if(ifImg){
         return(
         <div className={'section fade-in'+(!props.isHighlight?"pb-5 pt-5 fade-in":"   pt-20 box bg-gradient-to-t to-moonstone from-powderBlue")}>
-            <div className={'title text-center '+(props.isHighlight?'text-charcoal':'text-plat')}>
+            <div className={' title text-center '+(props.isHighlight?'text-charcoal':'text-plat')}>
                 {props.title}
+            <div className={' font-normal text-center '+(props.isHighlight?'text-charcoal':'text-plat')}>
+                {props.subtitle}
             </div>
+            </div>
+
+
             <div className={'text '+(props.isHighlight?"text-charcoal":'text-plat')}>
                 {props.children}
 
@@ -32,7 +38,12 @@ const Section=(props:PropsWithChildren<props>)=>{
         <div className={'section fade-in'+(!props.isHighlight?"pb-5 pt-5 fade-in":"   pt-20 box bg-gradient-to-t to-moonstone from-powderBlue")}>
             <div className={'title text-center '+(props.isHighlight?'text-charcoal':'text-plat')}>
                 {props.title}
+
+            <div className={' font-normal text-center '+(props.isHighlight?'text-charcoal':'text-plat')}>
+                {props.subtitle}
             </div>
+            </div>
+
             <div className={'text md:grid '+(props.isHighlight?"text-charcoal":'text-plat')}>
                 {props.children}
                 {/* <Carousel images={props.images} /> */}
