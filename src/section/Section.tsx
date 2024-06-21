@@ -35,16 +35,16 @@ const Section=(props:PropsWithChildren<props>)=>{
         )
     }
     return(
-        <div className={'section fade-in'+(!props.isHighlight?"pb-5 pt-5 fade-in":"   pt-20 box bg-gradient-to-t to-moonstone from-powderBlue")}>
+        <div className={'section fade-in '+(!props.isHighlight?"pb-5 pt-5 fade-in":"   pt-20 box bg-gradient-to-t to-moonstone from-powderBlue")}>
             <div className={'title text-center '+(props.isHighlight?'text-charcoal':'text-plat')}>
                 {props.title}
 
-            <div className={' font-normal text-center '+(props.isHighlight?'text-charcoal':'text-plat')}>
+            <div className={' font-normal text-center '+(props.isHighlight?' text-charcoal':'text-plat')}>
                 {props.subtitle}
             </div>
             </div>
 
-            <div className={'text md:grid '+(props.isHighlight?"text-charcoal":'text-plat')}>
+            <div className={'text '+(props.isHighlight?"text-charcoal":'text-plat')}>
                 {props.children}
                 {/* <Carousel images={props.images} /> */}
 

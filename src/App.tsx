@@ -17,7 +17,7 @@ function App() {
         </Section>
 
         <Section isHighlight={true} title="Bl1nda" images={["shanks_bl1nda.jpeg", "bl1nda.jpeg"]} subtitle="Fall 2022">
-          <div className="h-full max-w-prose slide-in fade-in from-left  align-middle content-center">
+          <div className="h-full slide-in fade-in from-left  align-middle content-center">
             The first project I worked on was a VEX robot in my senior year of high school. Prior I had taken a few Java classes but this was the first project that exposed me to 
             C++, robotics, and working in a team. It was here that I was most inspired to persue computer science, I worked with two other students on our robot, named "Bl1nda." 
             We competed in one competition with another robot from our high school. 
@@ -73,21 +73,32 @@ function App() {
 
         </Section>
         <Section isHighlight={true} title="ZenState" images={[]} subtitle="Spring 2024">
-          <div className="p-10 h-full text-center slide-in fade-in from-left">
-            <a href='https://intro-swe-project-hoshboshs-projects.vercel.app/' target="_blank">here</a>
+          <div className="p-10 h-full text-center">
+            <div>
+              For my Intro to Software Engineering course, my team's semester long project was a productivity web application. Zenstate allows users to add friends 
+              and then compete for the longest time spent focusing on their work. This app included user authentication, and full MongoDB CRUD functionality. The app used 
+              Next.js and TailwindCSS. 
+            </div>
+
+            <a href='https://intro-swe-project-hoshboshs-projects.vercel.app/' target="_blank" className='flex place-content-center pt-10'>
+              <img className="scale-25 w-3/4 slide-in fade-in from-right rounded-lg" src='./zen.png'/>
+            </a>
           </div>
         </Section>
 
         <Section isHighlight={false} title="Raytracer" images={[]} subtitle="Spring 2024">
-          <div className="p-10 h-full text-center slide-in fade-in from-left">
-            <a href="https://youtube.com/shorts/wJNnKOjAEIQ?feature=share" target="_blank">here</a>
-            <img src="./everything.png"/>
+          <div className="p-10 h-full text-center slide-in fade-in from-left ">
+            <a className='flex place-content-center' href="https://youtube.com/shorts/wJNnKOjAEIQ?feature=share" target="_blank">
+              <img className='scale-25 w-3/4 slide-in fade-in from-right rounded-lg' src="./everything.png"/>
+            </a>
           </div>
         </Section>
 
         <Section isHighlight={true} title="Graphics Pipeline Model Viewer" images={[]} subtitle="Spring 2024">
-          <div className="p-10 h-full text-center slide-in fade-in from-left">
-            <img src="./pawn.png"/>
+          <div className="p-10 h-full text-center slide-in fade-in from-left ">
+            <div className="flex place-content-center">
+              <img src="./pawn.png" className='scale-25 w-3/4 slide-in fade-in from-right rounded-lg'/>
+            </div>
           </div>
         </Section>
     </div>

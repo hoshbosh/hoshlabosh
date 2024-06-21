@@ -13,6 +13,7 @@
     .title{
         @apply text-3xl font-bold 
     }
+
 }
 .fade-in{
   opacity: 0;
