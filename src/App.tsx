@@ -8,7 +8,7 @@ function App() {
           <div className='h-full text-center'>
             I am a second-year computer science major at the University of Florida. I come from Ocala, Florida and I went to the Villages Charter Highschool where 
             I graduated with my Associate's of Arts and as Salutatorian of my class. I enjoy being active, which for me means rock climbing.
-             My interests in computer science mostly pretain to full-stack web development and computer graphics, but I am also passionate about robotics and machine learning.
+             My interests in computer science mostly pertain to full-stack web development and computer graphics, but I am also passionate about robotics and machine learning.
           </div>
           <div className='place-content-center flex'>
             <img src='./me.jpeg' className="pt-5 rounded-lg w-3/4 slide-in fade-in from-right scale-25"/>
